@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Start your development with Pritam Nagose page.">
+  <meta name="author" content="Devcrud">
+  <link rel="shortcut icon" type="image/icon" href="assets/logo/favicone.png" />
+  <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="path/to/lightbox.css">
+  <title>Autoplaying Video Page</title>
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    #descriptions {
+      flex: 1 1 45%;
+      margin: 10px;
+    }
+
+    #media {
+      flex: 1 1 45%;
+      margin: 10px;
+    }
+
+    #live-video {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    #screenshots {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .screenshot {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav"></div>
+  <div class="container">
+    <div id="descriptions">
+      <h1>Project Descriptions</h1>
+      <p>
+      <h2>Bank Application - Java Servlet and jsp </h2>
+      <h4>Project Overview:</h4>
+      <h4>Project Name: <span> Bank Application </span> </h4>
+      <h4>Tech Stack: <span>Html, css, javascript, Java Servlet, jsp, MySQL</span></h4>
+      </p>
+
+      <b>Bank Application Mini Project</b><br>
+
+      <p><b>Overview :</b><br>
+        The Bank Application mini project is a comprehensive web-based application designed to simulate basic banking
+        functionalities. The application allows users to register, generate an account, access a welcome page, perform
+        credit and debit transactions, and search for account details. The project is structured with a clear
+        separation
+        between the front-end and back-end, ensuring a seamless user experience and robust data handling.<br>
+      </p>
+
+      <p><b>Front-End Technologies</b><br>
+        <b>- <i>HTML</i>:</b> Used for structuring the web pages. The registration form, welcome page, transaction forms
+        (credit and debit), and search account page are all created using HTML.<br>
+        <b>- <i>CSS</i>:</b> Applied to style the web pages, making the application visually appealing and
+        user-friendly. <br>
+        <b>- <i>JavaScript</i>:</b> Utilized for client-side validation, enhancing user interactivity and ensuring data
+        integrity before it is sent to the server. <br>
+      </p>
+
+      <p><b>Back-End Technologies</b><br>
+        <b>- Java:</b> The core programming language used to handle business logic. Java ensures a robust and secure
+        back-end. <br>
+        <b>- Servlets:</b> Java Servlets manage HTTP requests and responses. They handle user actions such as
+        registration, account creation, and transactions. <br>
+        <b>- JSP (JavaServer Pages):</b> Used for dynamically generating web pages based on user interactions and data
+        processed by the servlets. <br>
+      </p>
+
+      <p><b>Database</b><br>
+        <b>- MySQL:</b> The relational database management system used to store user information, account details, and
+        transaction records. MySQL ensures data is stored efficiently and can be retrieved quickly.
+      </p>
+
+      <b>Core Functionalities</b><br>
+
+      <p><b>1. User Registration</b>
+        - Users can sign up by providing their personal details.
+        - Form validation is performed using JavaScript before sending the data to the server.
+        - On successful registration, user data is stored in the MySQL database.</p>
+
+      <p><b>2. Account Generation</b><br>
+        - Once registered, users can create a new bank account.
+        - Each account is assigned a unique account number.
+        - Account details are saved in the database.
+      </p>
+
+      <p><b>3. Welcome Page</b><br>
+        - After logging in, users are greeted with a welcome page.
+        - The welcome page displays the user’s name and basic account information.
+      </p>
+
+      <p><b>4. Credit Transaction</b><br>
+        - Users can deposit money into their account.
+        - The amount entered is validated and then updated in the user's account balance.
+        - The transaction is recorded in the database.
+      </p>
+
+      <p><b>5. Debit Transaction</b><br>
+        - Users can withdraw money from their account.
+        - The system checks for sufficient balance before processing the transaction.
+        - The amount is deducted from the user's account balance and the transaction is recorded.</p>
+
+      <p><b>6. Search Account</b><br>
+        - Users can search for account details by entering an account number.
+        - The application retrieves and displays the relevant account information from the database.</p>
+
+      <p>
+        <b>Development Highlights</b><br>
+        <b>- MVC Architecture:</b> The project follows the Model-View-Controller (MVC) architecture to separate the
+        concerns of data management (Model), user interface (View), and business logic (Controller).<br>
+        <b>- Security Measures:</b> Basic security measures, such as input validation and secure password storage, are
+        implemented to protect user data. <br>
+        <b>- Responsive Design:</b> CSS ensures that the application is responsive and accessible on various devices,
+        including desktops, tablets, and smartphones. <br>
+      </p>
+
+      <p> <b>Conclusion</b><br>
+        This Bank Application project demonstrates proficiency in both front-end and back-end web development
+        technologies.
+        It showcases the ability to create a full-stack application that is functional, user-friendly, and secure.
+        The use of Java, Servlets, JSP, and MySQL for the back-end, combined with HTML, CSS, and JavaScript for the
+        front-end, exemplifies a well-rounded skill set suitable for various web development projects.
+      </p>
+      <button class="btn-back"><a class="back" href="index.html">Go Back</a></button>
+      <p>
+      <ul class="social-icons pt-3">
+        <li class="social-item"><a class="social-link text-light" href="https://github.com/PritamNagose7">
+            <i class="ti-github" aria-hidden="true"></i></a></li>
+      </ul>
+      </p>
+    </div>
+
+    <div id="media">
+      <div id="live-video">
+        <video width="100%" height="100%" controls autoplay muted>
+          <source src="assets/vid/Bank_application.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div id="screenshots">
+        <a href="assets/imgs/bank/Screenshot (468).png" data-lightbox="screenshots" data-title="Screenshot 1">
+          <img class="screenshot" src="assets/imgs/bank/Screenshot (468).png" alt="Screenshot 1">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (469).png" data-lightbox="screenshots" data-title="Screenshot 2">
+          <img class="screenshot" src="assets/imgs/bank/Screenshot (469).png" alt="Screenshot 2">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (470).png" data-lightbox="screenshots" data-title="Screenshot 3">
+          <img class="screenshot" src="assets/imgs/bank/Screenshot (470).png" alt="Screenshot 3">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (471).png" data-lightbox="screenshots" data-title="Screenshot 4">
+          <img class="screenshot" src="assets/imgs/bank/Screenshot (471).png" alt="Screenshot 4">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (472).png" data-lightbox="screenshots" data-title="Screenshot 5">
+          <img class="screenshot" src="assets/imgs/bank/Screenshot (472).png" alt="Screenshot 5">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (473).png" data-lightbox="screenshots" data-title="Screenshot 6">
+          <img class="screenshot" src="assets/imgs/bank/Screenshot (473).png" alt="Screenshot 6">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (474).png" data-lightbox="screenshots" data-title="Screenshot 7">
+          <img class="screenshot" src="assets/imgs/bank/Screenshot (474).png" alt="Screenshot 7">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (475).png" data-lightbox="screenshots" data-title="Screenshot 8">
+          <img class="screenshot" src="assets/imgs/bank/Screenshot (475).png" alt="Screenshot 8">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (476).png" data-lightbox="screenshots" data-title="Screenshot 9">
+          <img class="screenshot" src="assets/imgs/bank/Screenshot (476).png" alt="Screenshot 9">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (477).png" data-lightbox="screenshots" data-title="Screenshot 10">
+          <img class="screenshot" src="assets/imgs/bank/Screenshot (477).png" alt="Screenshot 10">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (478).png" data-lightbox="screenshots" data-title="Screenshot 11">
+          <img class="screenshot" src="assets/imgs/bank/Screenshot (478).png" alt="Screenshot 11">
+        </a>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="path/to/lightbox.js"></script>
+</body>
+
+</html>

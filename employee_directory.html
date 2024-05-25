@@ -7,11 +7,45 @@
   <meta name="description" content="Start your development with Pritam Nagose page.">
   <meta name="author" content="Devcrud">
   <link rel="shortcut icon" type="image/icon" href="assets/logo/favicone.png" />
-
-  <!-- font icons -->
   <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="path/to/lightbox.css">
   <title>Autoplaying Video Page</title>
   <link rel="stylesheet" href="assets/css/portfolio.css">
+
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    #descriptions {
+      flex: 1 1 45%;
+      margin: 10px;
+    }
+
+    #media {
+      flex: 1 1 45%;
+      margin: 10px;
+    }
+
+    #live-video {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    #screenshots {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .screenshot {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
+  </style>
 </head>
 
 <body>
@@ -108,8 +142,6 @@
         This project is an essential component of my portfolio, illustrating my proficiency in Java web development and
         my ability to create robust and scalable applications.
       </p>
-
-
       <button class="btn-back"><a class="back" href="index.html">Go Back</a></button>
       <p>
       <ul class="social-icons pt-3">
@@ -117,31 +149,32 @@
             <i class="ti-github" aria-hidden="true"></i></a></li>
       </ul>
       </p>
-      <!-- Add more program descriptions as needed -->
     </div>
 
     <div id="media">
       <div id="live-video">
-        <!-- Add the "autoplay" and "muted" attributes to start video playback automatically -->
         <video width="100%" height="100%" controls autoplay muted>
           <source src="assets/vid/directory.app.mp4" type="video/mp4">
         </video>
-
       </div>
       <div id="screenshots">
-        <!-- Add screenshots or other media content -->
-        <img class="screenshot" src="assets/imgs/employee_directory/code_workspace.png" alt="Screenshot 1">
-        <img class="screenshot" src="assets/imgs/employee_directory/output.png" alt="Screenshot 2">
-        <img class="screenshot" src="assets/imgs/employee_directory/databases_cmd.png" alt="Screenshot 3">
-        <img class="screenshot" src="assets/imgs/employee_directory/database_workspace.png" alt="Screenshot 4">
-        <!-- Add more screenshots as needed -->
+        <a href="assets/imgs/bank/Screenshot (468).png" data-lightbox="screenshots" data-title="Screenshot 1">
+          <img class="screenshot" src="assets/imgs/employee_directory/code_workspace.png" alt="Screenshot 1">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (469).png" data-lightbox="screenshots" data-title="Screenshot 2">
+          <img class="screenshot" src="assets/imgs/employee_directory/database_workspace.png" alt="Screenshot 2">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (470).png" data-lightbox="screenshots" data-title="Screenshot 3">
+          <img class="screenshot" src="assets/imgs/employee_directory/databases_cmd.png" alt="Screenshot 3">
+        </a>
+        <a href="assets/imgs/bank/Screenshot (471).png" data-lightbox="screenshots" data-title="Screenshot 4">
+          <img class="screenshot" src="assets/imgs/employee_directory/output.png" alt="Screenshot 4">
+        </a>
       </div>
     </div>
   </div>
 
-  <script>
-    // Add any JavaScript functionality if needed
-  </script>
+  <script src="path/to/lightbox.js"></script>
 </body>
 
 </html>
